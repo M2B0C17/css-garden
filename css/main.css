@@ -19,6 +19,7 @@ body{
   background-attachment: scroll;
   color: #3C2140;
   width: 70%;
+  cursor: move;
 }
 
 p{
@@ -109,6 +110,10 @@ li a[href="http://www.mezzoblue.com/zengarden/alldesigns/"], a[href="/1/page1"]{
   float: left;
 }
 
+li a[href="http://www.mezzoblue.com/zengarden/alldesigns/"]:hover, a[href="/1/page1"]:hover{
+  background: #bbcbcc;
+}
+
 li a[href="/1/1.css"], a[href="http://www.mezzoblue.com/zengarden/resources/"], a[href="http://www.mezzoblue.com/zengarden/faq/"], a[href="http://www.mezzoblue.com/zengarden/submit/"], a[href="http://www.mezzoblue.com/zengarden/translations/"]{
   font-size: 15px;
   text-decoration: none;
@@ -119,6 +124,11 @@ li a[href="/1/1.css"], a[href="http://www.mezzoblue.com/zengarden/resources/"], 
   padding: 10px 20px;
   position: center;
   float: left;
+}
+
+li a[href="/1/1.css"]:hover, a[href="http://www.mezzoblue.com/zengarden/resources/"]:hover, a[href="http://www.mezzoblue.com/zengarden/faq/"]:hover, a[href="http://www.mezzoblue.com/zengarden/submit/"]:hover, a[href="http://www.mezzoblue.com/zengarden/translations/"]:hover{
+  background: #8a9fa0;
+  color: #3C2140;
 }
 
 li a:hover{
