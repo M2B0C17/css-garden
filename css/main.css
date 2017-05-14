@@ -1,38 +1,90 @@
 /* Agrega aquí tus estilos*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  background-image: url(../img/fondo3.png);
+  background-repeat: no-repeat;
+  image-orientation: center;
+  width: 567px;
+  height: 567px;
+  margin-right: auto;
+  opacity: 0.5;
+}
+
 body{
-  background-color: #BEEB9F;
+  background: #E9EBEA;
   background-attachment: scroll;
-  color: #00A388;
+  color: #3C2140;
+  width: 70%;
 }
 
 p{
-  font-family: Arial, Helvetica, sans-serif, "Myriad Pro";
   font-size: 12px;
   font-weight: normal;
-  text-align: left;
+  text-align: right;
   line-height: 15px;
   letter-spacing: 1px;
   word-spacing: 5px;
 }
 
 h2, h3{
-  color: #79BD8F;
+  color: #3C2140;
   text-align: center;
   font-size: 20px;
+  padding: 30px;
+}
+
+div .zen-resources h3{
+  text-align: center;
+  width: none;
+  max-width: none;
+  padding: 30px;
 }
 
 h1{
-    background: #F0340F;
+    background: #46A6A6;
     padding: 20px 30px 20px 50px;
-    color: #ffffff;
     font-size: 50px;
-      text-align: center;
+    text-align: center;
+    color: white;
 }
 
-p a{
-  color: green;
+header, .main, footer{
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif, "Myriad Pro";
+  padding: 40px;
+}
+
+p a, footer a{
   text-decoration: none;
   font-size: 15px;
+  display: none;
+  background: none;
+  padding: none;
+}
+
+div .summary, div .preamble{
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif, "Myriad Pro";
+  padding: 10px;
+}
+
+p a:active{
+  text-decoration: line-through;
+}
+
+li a:link{
+  color: black;
+
 }
 
 li a.design-name{
@@ -43,24 +95,6 @@ li a.design-name{
   right: 0;
   left: 300px;
   font-size: 15px;
-  margin: 10px 5px 10px 0px;
-}
-
-p a:link{
-  color: red;
-}
-
-li a:link{
-  color: orange;
-}
-
-p li a:hover{
-  color: purple;
-  background: #ccc;
-}
-
-p a:active{
-  text-decoration: line-through;
 }
 
 li a[href="http://www.mezzoblue.com/zengarden/alldesigns/"], a[href="/1/page1"]{
@@ -68,10 +102,11 @@ li a[href="http://www.mezzoblue.com/zengarden/alldesigns/"], a[href="/1/page1"]{
   text-decoration: none;
   margin: 10px 20px;
   display: inline-block;
-  background: blue;
+  background: #46A6A6;
   color: white;
   padding: 10px 20px;
   position: center;
+  float: left;
 }
 
 li a[href="/1/1.css"], a[href="http://www.mezzoblue.com/zengarden/resources/"], a[href="http://www.mezzoblue.com/zengarden/faq/"], a[href="http://www.mezzoblue.com/zengarden/submit/"], a[href="http://www.mezzoblue.com/zengarden/translations/"]{
@@ -79,13 +114,28 @@ li a[href="/1/1.css"], a[href="http://www.mezzoblue.com/zengarden/resources/"], 
   text-decoration: none;
   margin: 10px 20px;
   display: inline-block;
-  background: blue;
-  color: white;
+  background: #46A6A6;
+  color: #ffffff;
   padding: 10px 20px;
   position: center;
+  float: left;
 }
 
 li a:hover{
-  color: purple;
-  background: #ccc;
+    color: #0B9999;
+}
+
+aside ul{
+  list-style: none;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif, "Myriad Pro";
+  padding: 0px 0 50px 50px ;
+}
+
+aside{
+  width: 30%;
+  margin: 50px auto;
+  font-family: Arial, Helvetica, sans-serif, "Myriad Pro";
 }
